@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #011e29;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.latest-news-section,
+.pictorial-news-section {
+  background: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.pictorial-news-section {
+  text-align: center;
+}
+
+.pictorial-news-section img {
+  width: 180px;
+  margin: 10px;
+  border-radius: 4px;
+}
